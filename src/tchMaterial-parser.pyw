@@ -736,4 +736,3 @@ progress_label = ttk.Label(container_frame, text="等待下载", anchor="center"
 progress_label.pack(side="bottom", padx=int(5 * scale), pady=int(5 * scale)) # 设置水平外边距、垂直外边距（跟随缩放），设置标签高度（跟随缩放）
 
 root.mainloop() # 开始主循环
-
